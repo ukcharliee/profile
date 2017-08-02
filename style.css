@@ -1,0 +1,198 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  margin-bottom: 3px;
+  margin-top: 0px;
+}
+li, a {
+  color: rgb(25, 25, 25);
+}
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+}
+.card {
+ background: rgb(235, 235, 235);
+ border-radius: 4px;
+ box-shadow: 5px, 4px, 2px, 5px
+ margin: 25px;
+}
+
+
+.min-height {
+  height: 10em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bottom_button {
+  padding-bottom: 25px;
+}
+
+ul {
+  padding:0px;
+}
+
+.list_inline_no_bullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.fa-5x {
+    font-size: 5em;
+    margin: 42px 65px;
+}
+
+#my_hobbies {
+  font-size: 28px;
+  letter-spacing: 5px;
+  margin-top: 17px;
+  padding-top: 5px;
+}
+
+.hobby_title {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.table_row {
+  pa: 10px;
+}
+
+.hobby_desc {
+  padding-top: 0px;
+  font-size: 0.5em;
+}
+
+.social_share_bottom {
+  margin: 60px;
+  text-align: center;
+}
+img {
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.fa {
+  a:hover ;
+}
+
+#portfolio_link {
+  padding-bottom: 5px;
+}
+
+#profile_pic {
+  margin-top: 25px;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 4px;
+  width: 96px;
+  height: 96px;
+  font-size: 0;
+  text-indent: -9999px;
+}
+
+.icon-mono {
+  background: url("../img/icons1.png");
+  background-image: url("../img/icons1.svg"), none;
+  background-color: #595959;
+  -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+}
+
+.fa-facebook:hover {
+  color: rgb(59, 89, 152);
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.fa-snapchat:hover {
+  color: rgb(255, 252, 0);
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.fa-youtube:hover {
+  color: rgb(187, 0, 0);
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+td {
+    padding-bottom: 45px;
+}
+
+
+
+.rocket{
+    position:absolute;
+    top:40;
+    left:750;
+    width:20%;
+    height:10%;
+    background:url(https://demo.tutorialzine.com/2013/10/css3-features-you-can-finally-use/assets/img/rocket.png) no-repeat 50px center;
+
+    /* Chrome still requires the -webkit- prefix */
+    -webkit-animation:orbit 2s linear infinite;
+    animation:orbit 2s linear infinite;
+
+    transition:background-position 0.8s;
+}
+
+.container:hover .rocket{
+    background-position:80px center;
+}
+
+/* Define the keyframes of the animation */
+
+@-webkit-keyframes orbit {
+    from {
+        -webkit-transform:rotate(0deg);}
+    to {
+        -webkit-transform:rotate(360deg);
+    }
+}
+
+@keyframes orbit {
+    from {
+        transform:rotate(0deg);
+
+        /* I am including the -webkit-transform properties, because
+           Chrome might start supporting keyframe without prefix in the future,
+           but we can't be certain whether it will support prefix-free transform
+           at the same time */
+
+        -webkit-transform:rotate(0deg);}
+    to {
+        transform:rotate(360deg);
+        -webkit-transform:rotate(360deg);
+    }
+}
+
+body{
+    background:repeating-linear-gradient(-45deg, #de9dd4, #de9dd4 5px, white 5px, white 10px);
+}*/
